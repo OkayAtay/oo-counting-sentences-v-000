@@ -18,6 +18,8 @@ class String
     binding.pry
     new_self = self.split
     new_self.count
+
+    self.split.each { |word| word.starts_with?(uppercase)  }
   end
 
 end
