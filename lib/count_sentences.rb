@@ -18,4 +18,5 @@ class String
     new_self = self.split
     new_self.count
   end
+  binding.pry
 end
