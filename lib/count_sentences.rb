@@ -19,7 +19,7 @@ class String
     new_self = self.split
     new_self.count
 
-    self.split(/[.!!?]$/)
+    self.split(/[.|?|...|!!]$/)
   end
 
 end
