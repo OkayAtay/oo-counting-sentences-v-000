@@ -16,10 +16,8 @@ class String
 
   def count_sentences
     new_self = self.split(/[.|...|?|!!]/)
-    new_self.count
-    new_self.compact
-    binding.pry
     new_self.delete_if{|string| string == ""}
+    new_self.count
   end
 
 end
