@@ -19,7 +19,7 @@ class String
     new_self = self.split
     new_self.count
 
-    self.split.each { |word| word.upcase? self.split  }
+    
   end
 
 end
