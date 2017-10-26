@@ -19,6 +19,7 @@ class String
     new_self.count
     new_self.compact
     binding.pry
+    new_self.delete_if{|string| string == ""}
   end
 
 end
